@@ -1,4 +1,4 @@
-# SITE_PIZZAEXPRESS
+# PIZZA_EXPRESS
 
 Este projeto de Site de Pizzas é o resultado direto do meu aprendizado em frontend, adquirido durante um curso dedicado à construção de interfaces web interativas e atraentes. 
 
