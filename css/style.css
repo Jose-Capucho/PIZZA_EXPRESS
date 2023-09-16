@@ -17,8 +17,6 @@
     z-index: 1000;
     text-align: center;
     visibility: hidden;
-    -webkit-transition: var(--transition);
-    -o-transition: var(--transition);
     transition: var(--transition);
     opacity: 0;
 }
@@ -36,8 +34,6 @@
     width: 100%;
     padding: 1rem 1.4rem;
     position: relative;
-    -webkit-transition: var(--transition);
-    -o-transition: var(--transition);
     transition: var(--transition);
 }
 .nav-link:hover{
@@ -56,51 +52,38 @@
 .navbar-toggler{
     height: 22px;
     width: 34px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .navbar-toggler .line{
     width: 100%;
     height: 3px;
     background-color: var(--dark-color);
-    -webkit-transition: var(--transition);
-    -o-transition: var(--transition);
     transition: var(--transition);
 }
 .navbar-toggler .line.line-3{
     width: 70%;
-    -ms-flex-item-align: end;
     align-self: flex-end;
 }
 .navbar-toggler:hover .line.line-3{
     width: 100%;
 }
 .navbar-toggler .line.line-1{
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    align-self: flex-end;
 }
 .navbar-toggler:hover .line.line-1{
     width: 70%;
 }
 
 .change-icon .line.line-1{
-    -webkit-transform: rotate(45deg) translate(7px, 7px);
-        -ms-transform: rotate(45deg) translate(7px, 7px);
-            transform: rotate(45deg) translate(7px, 7px);
+    transform: rotate(45deg) translate(7px, 7px);
 }
 .change-icon .line.line-2 {
     opacity: 0;
 }
 .change-icon .line.line-3{
     width: 100%!important;
-    -webkit-transform: rotate(-45deg) translate(6px, -7px);
-        -ms-transform: rotate(-45deg) translate(6px, -7px);
-            transform: rotate(-45deg) translate(6px, -7px);
+    transform: rotate(-45deg) translate(6px, -7px);
 }
 .change-icon:hover .line.line-1{
     width: 100%;
@@ -108,10 +91,7 @@
 
 /* services section */
 .section-title{
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-bottom: 2rem;
 }
 .section-title .icon img{
@@ -142,8 +122,6 @@
 
 /* catering section */
 #catering .slanted-bg::before, #catering .slanted-bg::after, #catering .slanted-bg .container::before, #catering .slanted-bg .container::after{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/pz_3.jpg') center/cover no-repeat fixed;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_3.jpg') center/cover no-repeat fixed;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_3.jpg') center/cover no-repeat fixed;
 }
 .catering-item{
@@ -158,8 +136,6 @@
     margin: 0 auto;
     border-radius: 50%;
     position: relative;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
 .catering-item .image img{
@@ -170,22 +146,16 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     background-color: var(--grey-color);
     width: 140px;
     height: 140px;
     border-radius: 50%;
     z-index: -1;
-    -webkit-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
 .catering-item .image:hover{    
-    -webkit-transform: rotate(360deg);    
-        -ms-transform: rotate(360deg);    
-            transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 .catering-item h3{
     margin-top: 2rem;
@@ -193,16 +163,13 @@
 
 /* menu section */
 #menu .slanted-bg::before, #menu .slanted-bg::after, #menu .slanted-bg .container::before, #menu .slanted-bg .container::after{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/pz_4.jpg') center/cover no-repeat fixed;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_4.jpg') center/cover no-repeat fixed;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_4.jpg') center/cover no-repeat fixed;
 }
 .menu-item{
     margin: 1.5rem 0;
 }
 .menu-item .info{
-    -ms-flex-item-align: start;
-        align-self: flex-start;
+    align-self: flex-start;
 }
 .menu-item .info h3{
     margin-top: 1rem;
@@ -215,8 +182,6 @@
 
 /* teams section */
 #teams .slanted-bg::before, #teams .slanted-bg::after, #teams .slanted-bg .container::before, #teams .slanted-bg .container::after{
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/pz_2.jpg') center/cover no-repeat fixed;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_2.jpg') center/cover no-repeat fixed;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_2.jpg') center/cover no-repeat fixed;
 }
 .teams-item{
@@ -280,10 +245,6 @@
     text-align: center;
 }
 
-
-
-
-
 /* Media Queries */
 @media(min-width: 480px){
     .slanted-bg .container{
@@ -297,12 +258,8 @@
         width: 400px;
     }
     .menu-item{
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
+        justify-content: space-between;
     }
     .menu-item .image{
         margin-right: 2.4rem;
@@ -347,9 +304,7 @@
         text-align: left;
     }
     .footer-item ul{
-        -webkit-box-pack: start;
-            -ms-flex-pack: start;
-                justify-content: flex-start;
+        justify-content: flex-start;
         margin-left: -1rem;
     }
     .footer-item .text{
