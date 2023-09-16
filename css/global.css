@@ -13,8 +13,7 @@
 *{
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-decoration: none;
   outline: 0;  
 }
@@ -34,26 +33,16 @@ ul {
     list-style-type: none;
 }
 .flex{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 .flex-sb {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
 }
 .grid {
     display: grid;
-    -webkit-column-gap: 3rem;
-        -moz-column-gap: 3rem;
-            column-gap: 3rem;
+    column-gap: 3rem;
 }
 .container {
     max-width: 1200px;
@@ -74,8 +63,6 @@ button, .button {
     padding: .9rem 2.3rem;
     font-size: 1.7rem;
     font-weight: 500;
-    -webkit-transition: var(--transition);
-    -o-transition: var(--transition);
     transition: var(--transition);
 }
 .button:hover {
@@ -101,13 +88,9 @@ h1, h2, h3 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/pz_2.jpg') center/cover no-repeat fixed;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_2.jpg') center/cover no-repeat fixed;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_2.jpg') center/cover no-repeat fixed;
     top: 0;
-    -webkit-transform: skewY(-3deg);
-        -ms-transform: skewY(-3deg);
-            transform: skewY(-3deg);
+    transform: skewY(-3deg);
     z-index: -1;
 }
 
@@ -124,11 +107,7 @@ h1, h2, h3 {
     position: absolute;
     height: 70px;
     width: 300px;
-    -webkit-transform: skewY(-3deg);
-        -ms-transform: skewY(-3deg);
-            transform: skewY(-3deg);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/pz_2.jpg') center/cover no-repeat fixed;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_2.jpg') center/cover no-repeat fixed;
+    transform: skewY(-3deg);
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_2.jpg') center/cover no-repeat fixed;
 }
 .slanted-bg .container::before{
@@ -148,9 +127,7 @@ h1, h2, h3 {
 .svg{
     position: absolute;
     bottom: -1px;
-    -webkit-transform: rotate(-3deg);
-        -ms-transform: rotate(-3deg);
-            transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
 .text{
     opacity: 0.9;
