@@ -93,7 +93,6 @@ h1, h2, h3 {
     transform: skewY(-3deg);
     z-index: -1;
 }
-
 .slanted-bg .container{
     width: 330px;
     height: 330px;
