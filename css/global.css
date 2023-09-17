@@ -102,6 +102,7 @@ h1, h2, h3 {
     position: relative;
     background: rgba(0, 0, 0, 0.4);
     transition: 1s;
+    color: #fff;
 }
 
 .slanted-bg .container:hover {
