@@ -100,14 +100,13 @@ h1, h2, h3 {
     border: 5px solid var(--white-color);
     border-radius: 50%;
     position: relative;
+    background: rgba(0, 0, 0, 0.4);
+    transition: 1s;
 }
-.slanted-bg .container::before, .slanted-bg .container::after{
-    content: "";
-    position: absolute;
-    height: 70px;
-    width: 300px;
-    transform: skewY(-3deg);
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/pz_2.jpg') center/cover no-repeat fixed;
+
+.slanted-bg .container:hover {
+    border-color: #FF6C65;
+    color: #FF6C65;
 }
 .slanted-bg .container::before{
     top: -6px;
