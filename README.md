@@ -33,3 +33,14 @@ O site foi criado com o objetivo de demonstrar minhas habilidades no desenvolvim
 ##
 
 # Imagens do projeto:
+
+![image](https://github.com/Jose-Capucho/PIZZA_EXPRESS/assets/97485966/e0c34343-5edb-4cd1-bf72-5d7d0fca3ea5)
+
+![image](https://github.com/Jose-Capucho/PIZZA_EXPRESS/assets/97485966/ee8ff5c5-175d-44e1-b43f-bf612a4983c4)
+
+![image](https://github.com/Jose-Capucho/PIZZA_EXPRESS/assets/97485966/bf309135-c346-497d-8de6-e9b132420645)
+
+![image](https://github.com/Jose-Capucho/PIZZA_EXPRESS/assets/97485966/2dc31d1c-b153-4a56-b912-c2d440bf6f9b)
+
+![image](https://github.com/Jose-Capucho/PIZZA_EXPRESS/assets/97485966/548d7ee0-0743-4521-a5e5-482272a7938f)
+
